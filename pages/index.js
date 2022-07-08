@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Layout, siteTitle, Date } from "../components";
+import { Layout, Date } from "../components";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
+
+const siteTitle = "Next.js Sample Website";
 
 export default function Home({ allPostsData }) {
   return (
